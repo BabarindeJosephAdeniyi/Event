@@ -1,0 +1,367 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.nasic {
+    list-style-type: none;
+    font-size: 25px;
+    color: white;
+}
+
+#one {
+    background-image: url('chairs.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('chairs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header {
+    display: flex;
+    margin: 0 ;
+    justify-content: space-between;
+    padding-top: 1%;
+    /* align-items: center; */
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+}
+.header2 li {
+    padding: 0 20px;
+    list-style-type: none;
+    color: white;
+}
+ .Event{
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    padding-bottom: 7%;
+}
+.event {
+    color:darkred;
+    font-size: 50px;
+}
+.time {
+    margin-top: 20px;
+    font-size: 23px;
+    color: white;
+}
+.book {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: wheat;
+    margin-top: 30px;
+}
+.ellipsis {
+    font-size: 30px;
+    color: white;
+    margin-top: 10%;
+}
+
+#two {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10%;
+    margin-top: 8%;
+}
+.here {
+    font-size: 40px;
+    color: deeppink;
+    padding-bottom: 10px;
+}
+.ticket {
+    color: grey;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.ipsum {
+    color: grey;
+    font-size: 15px;
+    /* padding-bottom: 10px; */
+}
+.More {
+    background-color: transparent;
+    border: 1px solid pink ;
+    padding: 15px 25px;
+    color: rgb(245, 91, 117);
+    margin-top: 30px;
+}
+.great {
+    margin-left:    3%;
+}
+
+#three {
+    display: flex;
+    justify-content: space-around;
+    background-color: crimson;
+    margin-top: 7%;
+    text-align: center;
+    padding-top: 0%;
+    /* width: 100%; */
+    border-left: 1px solid black;
+}
+
+.icon {
+   font-size: 40px;
+   list-style-type: none;
+   color: white;
+   margin-bottom: 20px; 
+}
+.icons {
+    border-left: 1px solid rgba(39, 22, 22, 0.349);
+    width: 500px;
+}
+.number {
+    font-size: 25px;
+    color: white;
+}
+.Eve {
+    font-size: 15px;
+    color: ghostwhite;
+    padding-top: 30px;
+}
+
+.speaker {
+    text-align: center;
+    margin-top: 5%;
+}
+.keynote {
+    color:deeppink;
+    font-size: 30px;
+}
+
+.Span {
+    border-bottom: 4px solid deeppink;
+    border-radius: 3px;
+    padding-bottom:4px;
+    margin-bottom:10px;
+}
+.dolor {
+    margin-top: 20px;
+    color: gray;
+}
+.date {
+    padding-left: 5px;
+}
+#five {
+    background-color: rgba(128, 128, 128, 0.178);
+    margin-top: 5%;
+}
+.window {
+    list-style-type: none;
+    padding-left: 50px;
+}
+.dates {
+    margin: auto;
+    padding-left: 30px;
+    text-align: center;
+}
+.align {
+    text-align: center;
+    padding-top: 5%;
+}
+.plan {
+    color: crimson;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.sit {
+    color: gray;
+    padding-bottom: 30px;
+}
+
+#six {
+    text-align: center;
+    padding: 50px 0px;
+    padding-top: 10%;
+    background-image: url(event.jpg);
+    background: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url('event.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.huge {
+    color: white;
+}
+.seat {
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 1px solid white;
+    color: white;
+    margin-top: 3%;
+}
+.all {
+    background-color: red;
+    color:white;
+    padding: 2px 10px;
+    margin-right: 20px;
+    border: none;
+}
+.business {
+    margin-right: 20px;
+    border: none;
+    color: gray;
+    margin-bottom: 1%;
+}
+.sign {
+    border: 1px solid pink;
+    color: deeppink;
+    background-color: transparent;
+    padding: 10px 40px;
+}
+#eight {
+    padding-bottom: 5%;
+}
+#nine {
+    text-align: center;
+    background-image: url(people.jpg);
+    background: linear-gradient(rgb(0,0,0,0.9), rgb(0,0,0,0.9)), url('people.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+
+#ten {
+    background-color:crimson;
+    padding-bottom: 5%;
+}
+#eleven {
+    background-image: url('water.jpg');
+    background: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)), url('water.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5%;
+   
+}
+.name {
+    width: 50%;
+    padding-left: 20%;
+}
+input {
+    width: 100%;
+}
+
+.input1 {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.input2 {
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+.Information {
+    margin-left: 2%;
+    padding-bottom: 1%;
+}
+.copywright {
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    padding: 20px 0px;
+}
+ 
+@media(max-width:827px) {
+    .Information{
+    font-size: 10px;
+}
+    .men {
+        height: 300px;
+    }  
+    .aperiam {
+        font-size: 12px;
+    }  
+
+    .football {
+        height: 300px;
+    }
+    #eight {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:720px) {
+    .football {
+        height: auto;
+
+    }
+    .aperiam {
+        font-size: 10px;
+    }
+    
+    .men {
+        height: auto;
+    }
+    .More {
+        padding: 5px 10px;
+        margin-bottom: 20px
+    }
+    .sit {
+        font-size: 10px;
+    }
+    .dolor {
+        font-size: 10px;
+    }
+}
+@media(max-width:576px) {
+    .desktop {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    
+    .workplace {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .here {
+        font-size: 25px;
+    }
+    .plan {
+        font-size: 25px;
+    }
+    .dates {
+        /* padding-right: 10px; */
+        font-size: 10px;
+    }
+    .icon {
+        font-size: 30px;
+    }
+    .number {
+        font-size: 10px;
+    }
+    .Eve{
+        font-size: 10px;
+    }
+}
+@media(max-width:430px) {
+    .window {
+        font-size: 5px;
+    }
+}
+@media(max-width:464px) {
+    .aperiam {
+        font-size: 8px;
+    }   
+    .business {
+        font-size: 10px;
+    }
+}
+@media(max-width:427px) {
+    .sign {
+        font-weight: bold;
+        font-size: 8px;
+    }
+    .diamond {
+        font-size: 20px;
+    }
+    .aperiam {
+        font-size: 5px;
+    }
+    .More {
+        padding: 3px ;
+        font-size: 5px;
+    }
+}
