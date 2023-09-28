@@ -8,6 +8,7 @@
     list-style-type: none;
     font-size: 25px;
     color: white;
+    /* padding-bottom: 50px; */
 }
 
 #one {
@@ -30,6 +31,7 @@
     justify-content: space-between;
 }
 .header2 li {
+    margin-top: 10px;
     padding: 0 20px;
     list-style-type: none;
     color: white;
@@ -88,10 +90,17 @@
     border: 1px solid pink ;
     padding: 15px 25px;
     color: rgb(245, 91, 117);
-    margin-top: 30px;
+    /* margin-top: 10px; */
+}
+.Mor {
+    background-color: transparent;
+    border: 1px solid pink ;
+    padding: 8px 25px;
+    color: rgb(245, 91, 117);
+    /* margin-top: 10px; */
 }
 .great {
-    margin-left:    3%;
+    margin-left:1%;
 }
 
 #three {
@@ -212,8 +221,11 @@
     background-color: transparent;
     padding: 10px 40px;
 }
+.smith {
+    /* border: 1px solid black; */
+}
 #eight {
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 #nine {
     text-align: center;
@@ -258,21 +270,91 @@ input {
     padding-bottom: 1%;
 }
 .copywright {
+    font-size: 10px;
     text-align: center;
     background-color: crimson;
     color: white;
     padding: 20px 0px;
 }
+ .Information {
+    font-size: 10px;
+ }
+ .aperiam {
+    font-size: 10px;
+ }
+
+
  
+#invisible{
+    display: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+ @media(max-width:991px) {
+    .here {
+        font-size: 35px;
+    }
+    .number {
+        /* font-size: 20px; */
+    }
+    .glass {
+        margin-top: 10px;
+        /* height: 150px; */
+    }
+    .icon {
+        font-size: 30px;
+    }
+    .aperiam {
+        font-size: 13px;
+    }
+    .men {
+        height: 300px;
+    }
+    .More {
+        padding: 8px 25px;
+    }
+    .football {
+        height: 250px;
+    }
+ }
+ @media(max-width:900px) {
+    .input2 {
+        padding-bottom:30px;
+    }
+    .input1 {
+        padding-bottom: 5px;
+    }
+ }
+ @media(max-width:892px) {
+    .Information {
+        font-size: 9px;
+    }
+    .month {
+        padding: 1px;
+    }
+ }
 @media(max-width:827px) {
     .Information{
     font-size: 10px;
 }
+    .header2 {
+        font-size: 15px;
+    }
     .men {
         height: 300px;
     }  
     .aperiam {
-        font-size: 12px;
+        /* font-size: 12px; */
     }  
 
     .football {
@@ -282,6 +364,65 @@ input {
         font-size: 10px;
     }
 }
+@media(max-width:767px) {
+    .football{
+        /* height: 280px; */
+        /* width: 150%; */
+    }
+    .adult {
+        width: 30%;
+    }
+    .plan {
+        font-size: 30px;
+    }
+    .smith {
+        width: 120%;
+        padding-left: 30px;
+        /* border-left: 1px solid ; */
+    }
+    .here {
+        font-size: 25px;
+    }
+    .input2 {
+        margin-top: 8%;
+        padding-bottom: 20%;
+        padding-right: 30%;
+    }
+    .input1 {
+        margin-top: 1%;
+    }
+    .nasic {
+        font-size: 20px;
+        padding-top: 6px;
+    }
+
+}
+
+
+@media(max-width:751px){
+    .header2{
+        display: none;
+    }
+    #invisible{
+        display: block;
+        margin-right: 50px;
+    }
+    .dropdown-content{
+        min-height: 150px;
+        border: 1px solid red;
+        padding: 5px 10px;
+        width: 30px;
+
+    }
+    .dropdown-content ul li{
+        padding:15px 0px  ;
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+   
+}
+
 
 @media(max-width:720px) {
     .football {
@@ -289,7 +430,7 @@ input {
 
     }
     .aperiam {
-        font-size: 10px;
+        /* font-size: 10px; */
     }
     
     .men {
@@ -303,7 +444,7 @@ input {
         font-size: 10px;
     }
     .dolor {
-        font-size: 10px;
+        /* font-size: 10px; */
     }
 }
 @media(max-width:576px) {
@@ -330,7 +471,7 @@ input {
         font-size: 30px;
     }
     .number {
-        font-size: 10px;
+        /* font-size: 10px; */
     }
     .Eve{
         font-size: 10px;
@@ -343,10 +484,13 @@ input {
 }
 @media(max-width:464px) {
     .aperiam {
-        font-size: 8px;
+        /* font-size: 15px; */
     }   
     .business {
         font-size: 10px;
+    }
+    .event {
+        font-size: 40px;
     }
 }
 @media(max-width:427px) {
@@ -358,10 +502,39 @@ input {
         font-size: 20px;
     }
     .aperiam {
-        font-size: 5px;
+        /* font-size: 15px; */
     }
     .More {
         padding: 3px ;
         font-size: 5px;
+    }
+    .window {
+        font-size: 5px;
+    }
+    .business {
+        font-size: 8px;
+    }
+}
+@media(max-width:366px) {
+    .event {
+        font-size: 30px;
+    }
+    .time {
+        font-size: 15px;
+    }
+}
+@media(max-width:344px) {
+    .window {
+        padding-left: 5%;
+        text-align: center;
+    }
+    .input1 {
+        padding-bottom: 1px;
+    }
+    .event {
+        font-size: 30px;
+    }
+    .time {
+        font-size: 15px;
     }
 }
