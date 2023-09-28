@@ -221,9 +221,6 @@
     background-color: transparent;
     padding: 10px 40px;
 }
-.smith {
-    /* border: 1px solid black; */
-}
 #eight {
     padding-bottom: 3%;
 }
@@ -284,29 +281,27 @@ input {
  }
 
 
- 
+/*  
 #invisible{
     display: none;
-}
+} */
+/* 
 .dropdown{
     position: relative;
     display: inline-block;
 }
 .dropdown-content{
     position: absolute;
-    display: none;
-}
-.dropdown:hover .dropdown-content{
-    display: block;
-}
+    /* display: none; */
+
+/* .dropdown:hover .dropdown-content ul{ */
+    /* display: block; */
 
  @media(max-width:991px) {
     .here {
         font-size: 35px;
     }
-    .number {
-        /* font-size: 20px; */
-    }
+    
     .glass {
         margin-top: 10px;
         /* height: 150px; */
@@ -346,15 +341,12 @@ input {
 @media(max-width:827px) {
     .Information{
     font-size: 10px;
-}
+    }
     .header2 {
         font-size: 15px;
     }
     .men {
         height: 300px;
-    }  
-    .aperiam {
-        /* font-size: 12px; */
     }  
 
     .football {
@@ -365,10 +357,7 @@ input {
     }
 }
 @media(max-width:767px) {
-    .football{
-        /* height: 280px; */
-        /* width: 150%; */
-    }
+
     .adult {
         width: 30%;
     }
@@ -403,22 +392,49 @@ input {
     .header2{
         display: none;
     }
+    .icon {
+        font-size: 30px;
+    }
+    .Eve {
+        padding-top: 10px;
+    }
+    .number {
+        font-size: 20px;
+    }
     #invisible{
         display: block;
         margin-right: 50px;
     }
-    .dropdown-content{
-        min-height: 150px;
-        border: 1px solid red;
-        padding: 5px 10px;
-        width: 30px;
-
+    .dropdown{
+        position: relative;
     }
+    .dropdown-content{
+        min-height: 330px;
+        padding: 5px 10px;
+        width: 130px;
+        /* overflow-x: hidden; */
+        
+    }
+    .dropdown-content ul{
+        display: none;
+        position: absolute;
+    }
+    .dates {
+        margin-right: 15%;
+    }
+    .men {
+        height: auto;
+    }
+ 
     .dropdown-content ul li{
-        padding:15px 0px  ;
+        padding:15px 0px;
+    }
+    .dropdown:hover .dropdown-content ul{
+        display: block;
+     
     }
     .dropdown:hover .dropdown-content{
-        display: block;
+        border: 1px solid red;
     }
    
 }
@@ -498,6 +514,9 @@ input {
         font-weight: bold;
         font-size: 8px;
     }
+    .More {
+        padding: 10px 30px;
+    }
     .diamond {
         font-size: 20px;
     }
@@ -513,6 +532,21 @@ input {
     }
     .business {
         font-size: 8px;
+    }
+}
+@media(max-width:390px) {
+    .smith {
+        text-align: center;
+    }
+    .More {
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+}
+@media(max-width:375px) {
+    .More {
+        padding: 10px 30px;
+        font-size: 20px;
     }
 }
 @media(max-width:366px) {
@@ -537,4 +571,7 @@ input {
     .time {
         font-size: 15px;
     }
+    .More {
+        padding: 10px 30px;
+    } 
 }
